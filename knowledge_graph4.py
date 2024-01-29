@@ -6,7 +6,7 @@ from pprint import pprint
 import google.generativeai as genai
 import concurrent.futures
 
-GOOGLE_API_KEY = 'AIzaSyCSadZXV7kV8tcT3oAB119XNHvidf3Ij_M'
+GOOGLE_API_KEY = ''
 genai.configure(api_key=GOOGLE_API_KEY)
 
 model = genai.GenerativeModel('gemini-pro')
